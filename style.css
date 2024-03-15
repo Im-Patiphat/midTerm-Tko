@@ -1,0 +1,171 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body{
+    background-color: #fdf9f9;
+  }
+/*header*/
+.header {
+    background-color: aqua;
+    padding: 20px;
+    text-align: center;
+}
+/* Menu */
+.menu {
+    width: 30%;
+    margin: 20px;
+    flex: 75%;
+    height: fit-content;
+}
+
+.menu h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.menu-items {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    gap: 10px;
+}
+
+.menu-item {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    text-align: center;
+    transition: transform 0.3s ease;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.menu-item:hover {
+    transform: translateY(-5px);
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.1);
+}
+
+.menu-item-image {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    margin-bottom: 10px;
+}
+
+.menu-item-info {
+    text-align: center;
+}
+
+.menu-item-title {
+    font-size: 16px;
+    font-weight: bold;
+    color: #333;
+    display: block;
+    margin-bottom: 5px;
+}
+
+.menu-item-price {
+    font-size: 16px;
+    color: green;
+    display: block;
+}
+
+
+/* Shopping Cart */
+.cart {
+    margin: 20px;
+    background-color: #fff;
+}
+.cart-item {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+}
+
+.cart-item-info {
+    flex-grow: 1;
+}
+
+.cart-item-title {
+    font-size: 18px;
+    font-weight: bold;
+    color: #333;
+}
+
+.cart-item-price {
+    font-size: 16px;
+    color: green;
+}
+
+.cart-item-actions {
+    display: flex;
+    align-items: center;
+}
+
+.cart-item-actions button {
+    font-size: 16px;
+    width: 30px;
+    height: 30px;
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.cart-item-actions button:hover {
+    background-color: #f0f0f0;
+}
+
+.cart-item-quantity {
+    font-size: 16px;
+    margin: 0 10px;
+}
+
+
+/* Summary */
+.summary {
+    margin: 20px;
+}
+
+.summary h5 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.summary-items-count {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.summary-total,
+.summary-grand-total {
+    font-size: 18px;
+    font-weight: bold;
+    color: green;
+}
+
+.back-to-shop {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.back-to-shop a {
+    text-decoration: none;
+    font-size: 24px;
+    margin-right: 5px;
+}
+
+.back-to-shop span {
+    font-size: 18px;
+    font-weight: bold;
+    color: #777;
+}
+
+.flex {
+    display: flex;
+}
