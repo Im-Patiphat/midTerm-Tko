@@ -3,36 +3,17 @@ body {
     background-image: url('./img/11.png');
     background-size: cover;
     background-repeat: no-repeat;
-    margin: 0; /* เอา margin ของ body ออก */
-    padding: 0; /* เอา padding ของ body ออก */
-    font-family: 'Arial', sans-serif; /* เปลี่ยน font-family */
+    margin: 0; 
+    padding: 0; 
+    font-family: 'Arial', 
 }
 
-<<<<<<< HEAD
 /* Container */
 .container {
     background-color: #fff;
     padding: 20px; 
     border-radius: 10px; 
     box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.1); 
-=======
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-  }
-  
-  body{
-    background-image: url('./img/11.png'); 
-    background-size: cover; 
-    background-repeat: no-repeat; 
-    
-  }
-  
-.container {
-    background-color: #fff;
-    height: 1300px;
->>>>>>> 9c2d45267b53f0ba29c103fed44537e1ff98d73c
 }
 /* Menu */
 .menu {
