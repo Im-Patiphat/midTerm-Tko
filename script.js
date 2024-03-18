@@ -30,11 +30,11 @@ document.addEventListener("DOMContentLoaded", function() {
 
     // Function to add item to cart
     function addToCart(id, name, price) {
-        let existingCartItem = document.querySelector(`.cart-item[data-id="${id}"]`);
+        let inCartItem = document.querySelector(`.cart-item[data-id="${id}"]`);
 
-        if (existingCartItem) {
-            let quantity = parseInt(existingCartItem.querySelector('.cart-item-quantity').textContent);
-            existingCartItem.querySelector('.cart-item-quantity').textContent = quantity + 1;
+        if (inCartItem) {
+            let quantity = parseInt(inCartItem.querySelector('.cart-item-quantity').textContent);
+            inCartItem.querySelector('.cart-item-quantity').textContent = quantity + 1;
         } else {
             let cartItem = document.createElement('div');
             cartItem.classList.add('cart-item');
