@@ -1,0 +1,79 @@
+/* หน้าเว็บทั้งหมด */
+body {
+    background-image: url('./img/11.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 0; 
+    padding: 0; 
+    font-family: 'Arial', 
+}
+
+/* Container */
+.container {
+    background-color: #fff;
+    padding: 20px; 
+    border-radius: 10px; 
+    box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.1); 
+}
+
+
+
+/* หัวข้อ */
+.headline {
+    margin-top: 50px; 
+}
+
+/* ส่วนเนื้อหา */
+.portfolio {
+    align-items: center;
+    flex-direction: column; 
+    justify-content: center; 
+    display: flex;
+    margin-top: 50px; 
+    margin-bottom: 50px;
+}
+
+/* ส่วนของรูปภาพ */
+.portfolio img {
+    width: 50%; 
+    border-radius: 10px; 
+    box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.1); 
+    margin-bottom: 20px; 
+}
+
+/* ส่วนของข้อความและปุ่ม */
+.flex {
+    text-align: center; 
+}
+
+.flex h2 {
+    font-size: 24px; 
+    margin-bottom: 10px; 
+}
+
+.flex p {
+    font-size: 18px; 
+    margin-bottom: 20px; 
+}
+
+.flex button {
+    background-color: #333; 
+    color: #fff; 
+    border: none; 
+    padding: 10px 20px; 
+    border-radius: 5px; 
+    cursor: pointer; 
+    transition: background-color 0.3s ease; 
+}
+
+.flex button:hover {
+    background-color: #39ade2; 
+}
+
+/* Footer */
+.footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
