@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 /* หน้าเว็บทั้งหมด */
 body {
     background-image: url('./img/11.png');
@@ -77,3 +78,84 @@ body {
     padding: 20px 0;
     text-align: center;
 }
+=======
+/* หน้าเว็บทั้งหมด */
+body {
+    background-image: url('./img/11.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 0; /* เอา margin ของ body ออก */
+    padding: 0; /* เอา padding ของ body ออก */
+    font-family: 'Arial', sans-serif; /* เปลี่ยน font-family */
+}
+
+/* Container */
+.container {
+    background-color: #fff;
+    padding: 20px; 
+    border-radius: 10px; 
+    box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.1); 
+}
+
+
+
+/* หัวข้อ */
+.headline {
+    margin-top: 50px; /* ขยับขึ้นไปให้กลางกล่อง */
+}
+
+/* ส่วนเนื้อหา */
+.portfolio {
+    align-items: center;
+    flex-direction: column; /* จัดเนื้อหาให้อยู่กึ่งกลางแนวตั้ง */
+    justify-content: center; /* จัดเนื้อหาให้อยู่ตรงกลาง */
+    display: flex;
+    margin-top: 50px; /* ขยับขึ้นไปให้กลางกล่อง */
+    margin-bottom: 50px;
+}
+
+/* ส่วนของรูปภาพ */
+.portfolio img {
+    width: 50%; /* กำหนดความกว้างของรูปภาพ */
+    border-radius: 10px; /* เพิ่มเส้นขอบโค้ง */
+    box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.1); /* เพิ่มเงา */
+    margin-bottom: 20px; /* ระยะห่างด้านล่างของรูปภาพ */
+}
+
+/* ส่วนของข้อความและปุ่ม */
+.flex {
+    text-align: center; /* จัดข้อความตรงกลาง */
+}
+
+.flex h2 {
+    font-size: 24px; /* ขนาดตัวอักษรของหัวข้อ */
+    margin-bottom: 10px; /* ระยะห่างด้านล่างของหัวข้อ */
+}
+
+.flex p {
+    font-size: 18px; /* ขนาดตัวอักษรของเนื้อหา */
+    margin-bottom: 20px; /* ระยะห่างด้านล่างของเนื้อหา */
+}
+
+.flex button {
+    background-color: #333; /* สีพื้นหลังของปุ่ม */
+    color: #fff; /* สีข้อความของปุ่ม */
+    border: none; /* เอาเส้นขอบออก */
+    padding: 10px 20px; /* ขนาดของปุ่ม */
+    border-radius: 5px; /* เส้นขอบโค้ง */
+    cursor: pointer; /* เปลี่ยนเป็นรูปแบบของเมาส์ */
+    transition: background-color 0.3s ease; /* เพิ่มเอฟเฟ็กต์การเปลี่ยนสี */
+}
+
+.flex button:hover {
+    background-color: #39ade2; /* เปลี่ยนสีพื้นหลังเมื่อโฮเวอร์ */
+}
+
+/* Footer */
+.footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+>>>>>>> 9c2d45267b53f0ba29c103fed44537e1ff98d73c
