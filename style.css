@@ -77,6 +77,10 @@ body {
 
 
 /* Shopping Cart */
+#cart {
+    margin-top:3rem; 
+    margin-bottom:3rem;
+}
 .cart {
     margin: 20px;
     background-color: #fff;
