@@ -91,7 +91,7 @@ document.addEventListener("DOMContentLoaded", function() {
 
 document.getElementById("createPDFButton").addEventListener("click", function() {
     // Capture the receipt container element
-    const receiptContainer = document.getElementById("cart");
+    const receiptContainer = document.getElementById("print");
     // Use dom-to-image to convert the receipt container to an image
     domtoimage.toBlob(receiptContainer)
         .then(function(blob) {
